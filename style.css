@@ -1,10 +1,102 @@
-#secondMenu .MenuMainUl.mainUl .mainParts a.MenuListLiA, #MenuV2 .MenuMainUl.mainUl .mainParts a.MenuListLiA {
-    color: black;
-    padding: 0px;
-    font-size: 14px;
-    text-decoration: none;
+/* 
+* file created in date : 7/9/2021 --
+** created in 3:00 - 3:30 PM --
+*/
+
+@media (max-width:767px) {
+    .cat-back {
+        display: none;
+    }
+    .circle img {
+        margin: 1px;
+        min-width: 100%;
+        min-height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .hidden-xs {
+        display: block !important;
+        width: 100%;
+    }
+    .box-ci-desc {
+        width: 25%;
+    }
+    .product {
+        margin-bottom: 2px;
+        width: 50%;
+    }
+    .circle {
+        width: 60px;
+        height: 90%;
+    }
+    .product-item1 {
+        width: 100%;
+    }
+    .ravand {
+        float: right;
+        min-height: 250px;
+        padding: 0px !important;
+        margin-bottom: 0;
+        border-radius: 3px;
+        background-color: white;
+        box-shadow: none;
+    }
+    .c-right-1 {
+        display: none;
+    }
+    .product-box {
+        margin: 0px 1.5% 26px 1.5%;
+        width: 97%;
+    }
+    .product {
+        margin-bottom: 2px;
+        width: 48%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    .slider-box {
+        margin: 30px 0 0 0;
+        padding: 0px !important;
+    }
+    .hr-vertical {
+        display: none !important;
+    }
+    .image-pr {
+        height: 150px;
+    }
 }
-#MenuV2 .MenuMainUl.mainUl .mainParts a.MenuListLiA {
-    font-size: 15px;
-    font-weight: Bold;
+
+
+@media (min-width: 1200px) {
+.col-lg-2 {
+    width: 23%;
+}
+.box-ci-desc {
+    margin: 39px 1% 0 1%;
+    z-index: 2;
+    padding: 0px;
+}
+.description {
+    font-size: 17px;
+}
+}
+
+.description {
+    font-weight: 800;
+}
+.c-5 {
+    display: none;
+}
+.d-5 {
+    display: none;
+}
+
+@media (min-width: 1380px) {
+.circle {
+    margin: auto !important;
+}
+.description {
+    margin-right: auto !important;
+}
+
 }
