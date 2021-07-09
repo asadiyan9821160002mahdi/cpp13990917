@@ -28,6 +28,7 @@
     .circle {
         width: 60px;
         height: 60px;
+        overflow: hidden;
     }
     .product-item1 {
         width: 100%;
